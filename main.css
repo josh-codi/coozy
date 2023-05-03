@@ -33,7 +33,7 @@ body {
   box-sizing: border-box !important;
   list-style-type: none !important;
   text-decoration: none !important;
-  transition: 1s ease-in-out !important;
+  transition: 500ms ease-in-out !important;
   outline: none !important;
 }
 
