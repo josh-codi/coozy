@@ -45,6 +45,12 @@ body {
   align-items: center;
 }
 
+.flex-reverse{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
 .inline-flex {
   display: inline-flex;
 }
