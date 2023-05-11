@@ -50,6 +50,10 @@ body {
   align-items: center;
   flex-direction: row-reverse;
 }
+.flex-wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .inline-flex {
   display: inline-flex;
