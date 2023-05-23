@@ -370,13 +370,4 @@ h1,h2,h3,h4,h5,h6,p,ul{
   }
 }
 
-/* Horizontal Scrol Pan */
-.horizontalScrol{
-  overflow: hidden;
-  overflow-x: auto;
-  width: 100%;
-}
-.scrolPan{
-  display: flex;
-  width: fit-content;
-}
+
