@@ -339,3 +339,44 @@ h1,h2,h3,h4,h5,h6,p,ul{
   }
 
 }
+
+.btn {
+  border-radius: 3px !important;
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem !important;
+  font-size: 0.85rem !important;
+}
+
+/* Text Sizes */
+.text-sm{
+  font-size: 0.7rem !important;
+}
+.text-md{
+  font-size: 0.95rem !important;
+}
+
+/* Selector */
+.selected{
+  animation-name: selected;
+  animation-duration: 600ms;
+  background-color: #1d1d1d49;
+}
+@keyframes selected{
+  0%{
+    background-color: #1d1d1d47;
+  }50%{
+    background-color: unset;
+  }100%{
+    background-color: #1d1d1d47;
+  }
+}
+
+/* Horizontal Scrol Pan */
+.horizontalScrol{
+  overflow: hidden;
+  overflow-x: auto;
+  width: 100%;
+}
+.scrolPan{
+  display: flex;
+  width: fit-content;
+}
