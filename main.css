@@ -1,5 +1,10 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
-
+.h-full{
+  height: 100%;
+}
+.h-100{
+  height: 100vh;
+}
 .lightMode {
   background-color: white !important;
   color: #000000;
