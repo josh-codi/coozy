@@ -5,6 +5,10 @@
 .h-100{
   height: 100vh;
 }
+.w-full{
+  width: 100%;
+}
+
 .lightMode {
   background-color: white !important;
   color: #000000;
@@ -243,7 +247,7 @@ body {
 
 .animatefromtop {
   animation-name: animatefromtop;
-  animation-duration: 1s;
+  animation-duration: 500ms;
   animation-delay: 0s;
 }
 
@@ -259,7 +263,7 @@ body {
 
 .animatefromright {
   animation-name: animatefromright;
-  animation-duration: 1s;
+  animation-duration: 500ms;
   animation-delay: 0s;
 }
 
@@ -275,7 +279,7 @@ body {
 
 .animatefromleft {
   animation-name: animatefromleft;
-  animation-duration: 1s;
+  animation-duration: 500ms;
   animation-delay: 0s;
 }
 
@@ -291,7 +295,7 @@ body {
 
 .animatefrombottom {
   animation-name: animatefrombottom;
-  animation-duration: 1s;
+  animation-duration: 500ms;
   animation-delay: 0s;
 }
 
@@ -336,14 +340,6 @@ h1,h2,h3,h4,h5,h6,p,ul{
   padding: 0 !important;
   margin: 0 !important;
 }
-
-
-/* @media only screen and (max-width: 767px) {
-  * {
-    font-size: 1rem !important;
-  }
-
-} */
 
 .btn {
   border-radius: 3px !important;
